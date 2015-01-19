@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ACFCC881A6D00A90095B5CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFCC871A6D00A90095B5CB /* AppDelegate.swift */; };
+		9ACFCC8B1A6D00A90095B5CB /* NaturalParkPlus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFCC891A6D00A90095B5CB /* NaturalParkPlus.xcdatamodeld */; };
+		9ACFCC8D1A6D00A90095B5CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFCC8C1A6D00A90095B5CB /* ViewController.swift */; };
+		9ACFCC901A6D00A90095B5CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACFCC8E1A6D00A90095B5CB /* Main.storyboard */; };
+		9ACFCC921A6D00A90095B5CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ACFCC911A6D00A90095B5CB /* Images.xcassets */; };
+		9ACFCC951A6D00A90095B5CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ACFCC931A6D00A90095B5CB /* LaunchScreen.xib */; };
+		9ACFCCA11A6D00A90095B5CB /* NaturalParkPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFCCA01A6D00A90095B5CB /* NaturalParkPlusTests.swift */; };
+		9ACFCCB11A6D03350095B5CB /* CoreDataInstanited.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFCCB01A6D03350095B5CB /* CoreDataInstanited.swift */; };
+		9ACFCCB21A6D03350095B5CB /* CoreDataInstanited.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFCCB01A6D03350095B5CB /* CoreDataInstanited.swift */; };
+		9ACFCCB91A6D06CA0095B5CB /* ZGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFCCB81A6D06CA0095B5CB /* ZGlobal.swift */; };
+		9ACFCCBA1A6D06CA0095B5CB /* ZGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFCCB81A6D06CA0095B5CB /* ZGlobal.swift */; };
+		9ACFCCC21A6D0EBE0095B5CB /* ZInStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFCCC11A6D0EBE0095B5CB /* ZInStyle.swift */; };
+		9ACFCCC31A6D0EBE0095B5CB /* ZInStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFCCC11A6D0EBE0095B5CB /* ZInStyle.swift */; };
+		9ACFCCC51A6D0F960095B5CB /* ZInColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFCCC41A6D0F960095B5CB /* ZInColor.swift */; };
+		9ACFCCC61A6D0F960095B5CB /* ZInColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFCCC41A6D0F960095B5CB /* ZInColor.swift */; };
+		9ACFCCC81A6D10420095B5CB /* ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFCCC71A6D10420095B5CB /* ExtensionUIColor.swift */; };
+		9ACFCCC91A6D10420095B5CB /* ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFCCC71A6D10420095B5CB /* ExtensionUIColor.swift */; };
+		9ACFCCCB1A6D12CB0095B5CB /* AppColor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ACFCCCA1A6D12CB0095B5CB /* AppColor.plist */; };
+		9ACFCCCC1A6D12CB0095B5CB /* AppColor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ACFCCCA1A6D12CB0095B5CB /* AppColor.plist */; };
+		9ACFCCD01A6D18930095B5CB /* TaskAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFCCCE1A6D18930095B5CB /* TaskAdapter.swift */; };
+		9ACFCCD11A6D18930095B5CB /* TaskAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFCCCE1A6D18930095B5CB /* TaskAdapter.swift */; };
+		9ACFCCD21A6D18930095B5CB /* TaskEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFCCCF1A6D18930095B5CB /* TaskEngine.swift */; };
+		9ACFCCD31A6D18930095B5CB /* TaskEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFCCCF1A6D18930095B5CB /* TaskEngine.swift */; };
+		9ACFCCD51A6D18CC0095B5CB /* TaskVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFCCD41A6D18CC0095B5CB /* TaskVariables.swift */; };
+		9ACFCCD61A6D18CC0095B5CB /* TaskVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACFCCD41A6D18CC0095B5CB /* TaskVariables.swift */; };
+		9ACFCCD81A6D1A9B0095B5CB /* AppConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ACFCCD71A6D1A9B0095B5CB /* AppConfig.plist */; };
+		9ACFCCD91A6D1A9B0095B5CB /* AppConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ACFCCD71A6D1A9B0095B5CB /* AppConfig.plist */; };
+		9AEE2F061A6D1BE600AB74D2 /* ZInConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2F051A6D1BE600AB74D2 /* ZInConfig.swift */; };
+		9AEE2F071A6D1BE600AB74D2 /* ZInConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE2F051A6D1BE600AB74D2 /* ZInConfig.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ACFCC9B1A6D00A90095B5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ACFCC7A1A6D00A90095B5CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ACFCC811A6D00A90095B5CB;
+			remoteInfo = NaturalParkPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9ACFCC821A6D00A90095B5CB /* NaturalParkPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaturalParkPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACFCC861A6D00A90095B5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ACFCC871A6D00A90095B5CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		9ACFCC8A1A6D00A90095B5CB /* NaturalParkPlus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NaturalParkPlus.xcdatamodel; sourceTree = "<group>"; };
+		9ACFCC8C1A6D00A90095B5CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9ACFCC8F1A6D00A90095B5CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9ACFCC911A6D00A90095B5CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9ACFCC941A6D00A90095B5CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9ACFCC9A1A6D00A90095B5CB /* NaturalParkPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaturalParkPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACFCC9F1A6D00A90095B5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ACFCCA01A6D00A90095B5CB /* NaturalParkPlusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalParkPlusTests.swift; sourceTree = "<group>"; };
+		9ACFCCB01A6D03350095B5CB /* CoreDataInstanited.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataInstanited.swift; sourceTree = "<group>"; };
+		9ACFCCB81A6D06CA0095B5CB /* ZGlobal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZGlobal.swift; sourceTree = "<group>"; };
+		9ACFCCBB1A6D09BC0095B5CB /* NaturalParkPlus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NaturalParkPlus-Bridging-Header.h"; sourceTree = "<group>"; };
+		9ACFCCBC1A6D09BC0095B5CB /* NaturalParkPlusTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NaturalParkPlusTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		9ACFCCC11A6D0EBE0095B5CB /* ZInStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZInStyle.swift; sourceTree = "<group>"; };
+		9ACFCCC41A6D0F960095B5CB /* ZInColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZInColor.swift; sourceTree = "<group>"; };
+		9ACFCCC71A6D10420095B5CB /* ExtensionUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIColor.swift; sourceTree = "<group>"; };
+		9ACFCCCA1A6D12CB0095B5CB /* AppColor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppColor.plist; sourceTree = "<group>"; };
+		9ACFCCCE1A6D18930095B5CB /* TaskAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskAdapter.swift; sourceTree = "<group>"; };
+		9ACFCCCF1A6D18930095B5CB /* TaskEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskEngine.swift; sourceTree = "<group>"; };
+		9ACFCCD41A6D18CC0095B5CB /* TaskVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskVariables.swift; sourceTree = "<group>"; };
+		9ACFCCD71A6D1A9B0095B5CB /* AppConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppConfig.plist; sourceTree = "<group>"; };
+		9AEE2F051A6D1BE600AB74D2 /* ZInConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZInConfig.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ACFCC7F1A6D00A90095B5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACFCC971A6D00A90095B5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ACFCC791A6D00A90095B5CB = {
+			isa = PBXGroup;
+			children = (
+				9ACFCC841A6D00A90095B5CB /* NaturalParkPlus */,
+				9ACFCC9D1A6D00A90095B5CB /* NaturalParkPlusTests */,
+				9ACFCC831A6D00A90095B5CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ACFCC831A6D00A90095B5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ACFCC821A6D00A90095B5CB /* NaturalParkPlus.app */,
+				9ACFCC9A1A6D00A90095B5CB /* NaturalParkPlusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ACFCC841A6D00A90095B5CB /* NaturalParkPlus */ = {
+			isa = PBXGroup;
+			children = (
+				9ACFCCAE1A6D02440095B5CB /* ZIn */,
+				9ACFCCB31A6D038E0095B5CB /* CodeUnit */,
+				9ACFCCB41A6D038E0095B5CB /* ViewUnit */,
+				9ACFCCAD1A6D02160095B5CB /* CoreData */,
+				9ACFCCAA1A6D01C90095B5CB /* Scene */,
+				9ACFCCAB1A6D01C90095B5CB /* View */,
+				9ACFCC8C1A6D00A90095B5CB /* ViewController.swift */,
+				9ACFCC851A6D00A90095B5CB /* Supporting Files */,
+			);
+			path = NaturalParkPlus;
+			sourceTree = "<group>";
+		};
+		9ACFCC851A6D00A90095B5CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ACFCCBB1A6D09BC0095B5CB /* NaturalParkPlus-Bridging-Header.h */,
+				9ACFCCBC1A6D09BC0095B5CB /* NaturalParkPlusTests-Bridging-Header.h */,
+				9ACFCC911A6D00A90095B5CB /* Images.xcassets */,
+				9ACFCC861A6D00A90095B5CB /* Info.plist */,
+				9ACFCCB81A6D06CA0095B5CB /* ZGlobal.swift */,
+				9ACFCCCA1A6D12CB0095B5CB /* AppColor.plist */,
+				9ACFCCD71A6D1A9B0095B5CB /* AppConfig.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9ACFCC9D1A6D00A90095B5CB /* NaturalParkPlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				9ACFCCA01A6D00A90095B5CB /* NaturalParkPlusTests.swift */,
+				9ACFCC9E1A6D00A90095B5CB /* Supporting Files */,
+			);
+			path = NaturalParkPlusTests;
+			sourceTree = "<group>";
+		};
+		9ACFCC9E1A6D00A90095B5CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ACFCC9F1A6D00A90095B5CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9ACFCCAA1A6D01C90095B5CB /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				9ACFCC8E1A6D00A90095B5CB /* Main.storyboard */,
+				9ACFCC931A6D00A90095B5CB /* LaunchScreen.xib */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		9ACFCCAB1A6D01C90095B5CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9ACFCCAD1A6D02160095B5CB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				9ACFCC891A6D00A90095B5CB /* NaturalParkPlus.xcdatamodeld */,
+				9ACFCCB01A6D03350095B5CB /* CoreDataInstanited.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		9ACFCCAE1A6D02440095B5CB /* ZIn */ = {
+			isa = PBXGroup;
+			children = (
+				9ACFCC871A6D00A90095B5CB /* AppDelegate.swift */,
+				9ACFCCC41A6D0F960095B5CB /* ZInColor.swift */,
+				9AEE2F051A6D1BE600AB74D2 /* ZInConfig.swift */,
+			);
+			path = ZIn;
+			sourceTree = "<group>";
+		};
+		9ACFCCB31A6D038E0095B5CB /* CodeUnit */ = {
+			isa = PBXGroup;
+			children = (
+				9ACFCCCD1A6D188A0095B5CB /* Task */,
+				9ACFCCC11A6D0EBE0095B5CB /* ZInStyle.swift */,
+				9ACFCCC71A6D10420095B5CB /* ExtensionUIColor.swift */,
+			);
+			path = CodeUnit;
+			sourceTree = "<group>";
+		};
+		9ACFCCB41A6D038E0095B5CB /* ViewUnit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewUnit;
+			sourceTree = "<group>";
+		};
+		9ACFCCCD1A6D188A0095B5CB /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				9ACFCCCE1A6D18930095B5CB /* TaskAdapter.swift */,
+				9ACFCCCF1A6D18930095B5CB /* TaskEngine.swift */,
+				9ACFCCD41A6D18CC0095B5CB /* TaskVariables.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ACFCC811A6D00A90095B5CB /* NaturalParkPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ACFCCA41A6D00A90095B5CB /* Build configuration list for PBXNativeTarget "NaturalParkPlus" */;
+			buildPhases = (
+				9ACFCC7E1A6D00A90095B5CB /* Sources */,
+				9ACFCC7F1A6D00A90095B5CB /* Frameworks */,
+				9ACFCC801A6D00A90095B5CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaturalParkPlus;
+			productName = NaturalParkPlus;
+			productReference = 9ACFCC821A6D00A90095B5CB /* NaturalParkPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9ACFCC991A6D00A90095B5CB /* NaturalParkPlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ACFCCA71A6D00A90095B5CB /* Build configuration list for PBXNativeTarget "NaturalParkPlusTests" */;
+			buildPhases = (
+				9ACFCC961A6D00A90095B5CB /* Sources */,
+				9ACFCC971A6D00A90095B5CB /* Frameworks */,
+				9ACFCC981A6D00A90095B5CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ACFCC9C1A6D00A90095B5CB /* PBXTargetDependency */,
+			);
+			name = NaturalParkPlusTests;
+			productName = NaturalParkPlusTests;
+			productReference = 9ACFCC9A1A6D00A90095B5CB /* NaturalParkPlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ACFCC7A1A6D00A90095B5CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Computer;
+				TargetAttributes = {
+					9ACFCC811A6D00A90095B5CB = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9ACFCC991A6D00A90095B5CB = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9ACFCC811A6D00A90095B5CB;
+					};
+				};
+			};
+			buildConfigurationList = 9ACFCC7D1A6D00A90095B5CB /* Build configuration list for PBXProject "NaturalParkPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ACFCC791A6D00A90095B5CB;
+			productRefGroup = 9ACFCC831A6D00A90095B5CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ACFCC811A6D00A90095B5CB /* NaturalParkPlus */,
+				9ACFCC991A6D00A90095B5CB /* NaturalParkPlusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ACFCC801A6D00A90095B5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACFCCCB1A6D12CB0095B5CB /* AppColor.plist in Resources */,
+				9ACFCCD81A6D1A9B0095B5CB /* AppConfig.plist in Resources */,
+				9ACFCC901A6D00A90095B5CB /* Main.storyboard in Resources */,
+				9ACFCC951A6D00A90095B5CB /* LaunchScreen.xib in Resources */,
+				9ACFCC921A6D00A90095B5CB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACFCC981A6D00A90095B5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACFCCD91A6D1A9B0095B5CB /* AppConfig.plist in Resources */,
+				9ACFCCCC1A6D12CB0095B5CB /* AppColor.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ACFCC7E1A6D00A90095B5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACFCC8D1A6D00A90095B5CB /* ViewController.swift in Sources */,
+				9ACFCCD51A6D18CC0095B5CB /* TaskVariables.swift in Sources */,
+				9ACFCCD01A6D18930095B5CB /* TaskAdapter.swift in Sources */,
+				9ACFCCD21A6D18930095B5CB /* TaskEngine.swift in Sources */,
+				9ACFCCC51A6D0F960095B5CB /* ZInColor.swift in Sources */,
+				9ACFCCB91A6D06CA0095B5CB /* ZGlobal.swift in Sources */,
+				9ACFCCC81A6D10420095B5CB /* ExtensionUIColor.swift in Sources */,
+				9ACFCCB11A6D03350095B5CB /* CoreDataInstanited.swift in Sources */,
+				9ACFCC881A6D00A90095B5CB /* AppDelegate.swift in Sources */,
+				9AEE2F061A6D1BE600AB74D2 /* ZInConfig.swift in Sources */,
+				9ACFCC8B1A6D00A90095B5CB /* NaturalParkPlus.xcdatamodeld in Sources */,
+				9ACFCCC21A6D0EBE0095B5CB /* ZInStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACFCC961A6D00A90095B5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACFCCD11A6D18930095B5CB /* TaskAdapter.swift in Sources */,
+				9ACFCCA11A6D00A90095B5CB /* NaturalParkPlusTests.swift in Sources */,
+				9ACFCCC91A6D10420095B5CB /* ExtensionUIColor.swift in Sources */,
+				9AEE2F071A6D1BE600AB74D2 /* ZInConfig.swift in Sources */,
+				9ACFCCB21A6D03350095B5CB /* CoreDataInstanited.swift in Sources */,
+				9ACFCCD31A6D18930095B5CB /* TaskEngine.swift in Sources */,
+				9ACFCCD61A6D18CC0095B5CB /* TaskVariables.swift in Sources */,
+				9ACFCCBA1A6D06CA0095B5CB /* ZGlobal.swift in Sources */,
+				9ACFCCC61A6D0F960095B5CB /* ZInColor.swift in Sources */,
+				9ACFCCC31A6D0EBE0095B5CB /* ZInStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9ACFCC9C1A6D00A90095B5CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ACFCC811A6D00A90095B5CB /* NaturalParkPlus */;
+			targetProxy = 9ACFCC9B1A6D00A90095B5CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9ACFCC8E1A6D00A90095B5CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ACFCC8F1A6D00A90095B5CB /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9ACFCC931A6D00A90095B5CB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ACFCC941A6D00A90095B5CB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ACFCCA21A6D00A90095B5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9ACFCCA31A6D00A90095B5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ACFCCA51A6D00A90095B5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = NaturalParkPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NaturalParkPlus/NaturalParkPlus-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9ACFCCA61A6D00A90095B5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = NaturalParkPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NaturalParkPlus/NaturalParkPlus-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		9ACFCCA81A6D00A90095B5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NaturalParkPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NaturalParkPlus/NaturalParkPlusTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaturalParkPlus.app/NaturalParkPlus";
+			};
+			name = Debug;
+		};
+		9ACFCCA91A6D00A90095B5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NaturalParkPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NaturalParkPlus/NaturalParkPlusTests-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaturalParkPlus.app/NaturalParkPlus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ACFCC7D1A6D00A90095B5CB /* Build configuration list for PBXProject "NaturalParkPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ACFCCA21A6D00A90095B5CB /* Debug */,
+				9ACFCCA31A6D00A90095B5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ACFCCA41A6D00A90095B5CB /* Build configuration list for PBXNativeTarget "NaturalParkPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ACFCCA51A6D00A90095B5CB /* Debug */,
+				9ACFCCA61A6D00A90095B5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ACFCCA71A6D00A90095B5CB /* Build configuration list for PBXNativeTarget "NaturalParkPlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ACFCCA81A6D00A90095B5CB /* Debug */,
+				9ACFCCA91A6D00A90095B5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9ACFCC891A6D00A90095B5CB /* NaturalParkPlus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9ACFCC8A1A6D00A90095B5CB /* NaturalParkPlus.xcdatamodel */,
+			);
+			currentVersion = 9ACFCC8A1A6D00A90095B5CB /* NaturalParkPlus.xcdatamodel */;
+			name = NaturalParkPlus.xcdatamodeld;
+			path = ../NaturalParkPlus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9ACFCC7A1A6D00A90095B5CB /* Project object */;
+}

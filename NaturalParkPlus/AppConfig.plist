@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LaunchScreenTime</key>
+	<integer>1</integer>
+	<key>RegisterUserMaxLength</key>
+	<integer>30</integer>
+	<key>RegisterPassMaxLength</key>
+	<integer>16</integer>
+	<key>UserNicknameMaxLength</key>
+	<integer>50</integer>
+	<key>WebPage_ForgetPass</key>
+	<string>http://www.baidu.com</string>
+	<key>WebPage_ServicePrivatePolicy</key>
+	<string>http://www.baidu.com</string>
+	<key>Server_address</key>
+	<string>127.0.0.1:9999</string>
+	<key>TabBarMaxCount</key>
+	<integer>5</integer>
+</dict>
+</plist>
